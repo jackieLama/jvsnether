@@ -1,10 +1,10 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#jvsnether:nether",
+    "biomes": "#jvsnether:soul_sand",
     "step": "surface_structures",
     "terrain_adaptation": "none",
     "spawn_overrides": {},
-    "start_pool": "jvsnether:piglin_totem",
+    "start_pool": "jvsnether:nether_bones_soulsand",
     "size": 1,
     "start_height": {
         "above_bottom": 32

@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "jvsnether:nether_bones",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 23,
+    "separation": 11,
+    "spread_type": "triangular",
+    "salt": 949220
+  }
+}

@@ -4,7 +4,7 @@
     "step": "surface_structures",
     "terrain_adaptation": "none",
     "spawn_overrides": {},
-    "start_pool": "jvsnether:piglin_totem",
+    "start_pool": "jvsnether:nether_stonehenge",
     "size": 1,
     "start_height": {
         "above_bottom": 32
