@@ -1,18 +1,18 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": "#jvsnether:nether",
-    "step": "surface_structures",
+    "step": "underground_structures",
     "spawn_overrides": {},
-    "terrain_adaptation": "beard_box",
+    "terrain_adaptation": "beard_thin",
     "start_pool": "jvsnether:piglin_totem",
     "size": 1,
     "start_height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-            "absolute": -93
+            "absolute": -90
         },
         "max_inclusive": {
-            "absolute": -38
+            "absolute": -40
         }
     },
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
