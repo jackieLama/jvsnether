@@ -1,0 +1,23 @@
+{
+  "structures": [
+    {
+      "structure": "jvsnether:piglin_totem",
+      "weight": 1
+    },
+      {
+          "structure": "jvsnether:nether_stonehenge",
+          "weight": 5
+      },
+      {
+          "structure": "jvsnether:lava_lake",
+          "weight": 5
+      }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 10,
+    "spread_type": "triangular",
+    "salt": 893249220
+  }
+}

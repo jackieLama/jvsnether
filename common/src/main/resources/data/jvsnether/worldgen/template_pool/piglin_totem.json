@@ -1,0 +1,15 @@
+{
+  "name": "jvsnether:piglin_totem",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "location": "jvsnether:piglin_totem"
+      },
+      "weight": 1
+    }
+  ]
+}
