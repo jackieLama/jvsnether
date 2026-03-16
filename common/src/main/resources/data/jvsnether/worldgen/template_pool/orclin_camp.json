@@ -1,0 +1,15 @@
+{
+  "name": "jvsnether:orclin_camp",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "location": "jvsnether:orclin_camp"
+      },
+      "weight": 1
+    }
+  ]
+}

@@ -11,7 +11,23 @@
       {
           "structure": "jvsnether:lava_lake",
           "weight": 5
-      }
+      },
+    {
+      "structure": "jvsnether:nether_eye_tower",
+      "weight": 5
+    },      {
+      "structure": "jvsnether:piglin_camp",
+      "weight": 5
+    },      {
+      "structure": "jvsnether:piglin_cauldron",
+      "weight": 5
+    },      {
+      "structure": "jvsnether:orclin_camp",
+      "weight": 5
+    },      {
+      "structure": "jvsnether:blaze_column",
+      "weight": 5
+    }
   ],
   "placement": {
     "type": "minecraft:random_spread",
