@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "jvsnether:piglin_camp",
+      "weight": 5
+    },
+    {
+      "structure": "jvsnether:piglin_abyss_shipyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 23,
+    "separation": 11,
+    "spread_type": "triangular",
+    "salt": 334729018
+  }
+}
