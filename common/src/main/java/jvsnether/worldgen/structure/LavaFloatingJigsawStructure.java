@@ -46,7 +46,8 @@ public class LavaFloatingJigsawStructure extends Structure {
             Heightmap.Types.CODEC.optionalFieldOf("project_start_to_heightmap").forGetter(s -> s.projectStartToHeightmap),
             Codec.intRange(1, 128).fieldOf("max_distance_from_center").forGetter(s -> s.maxDistanceFromCenter),
             Codec.intRange(1, 128).fieldOf("footprint_x").forGetter(s -> s.footprintX),
-            Codec.intRange(1, 128).fieldOf("footprint_z").forGetter(s -> s.footprintZ)
+            Codec.intRange(1, 128).fieldOf("footprint_z").forGetter(s -> s.footprintZ),
+            Codec.intRange(0, 16).optionalFieldOf("lava_y_offset", 2).forGetter(s -> s.lavaYOffset)
         ).apply(instance, LavaFloatingJigsawStructure::new)
     ).codec();
 
@@ -63,6 +64,7 @@ public class LavaFloatingJigsawStructure extends Structure {
     private final int maxDistanceFromCenter;
     private final int footprintX;
     private final int footprintZ;
+    private final int lavaYOffset;
 
     public LavaFloatingJigsawStructure(
             Structure.StructureSettings settings,
@@ -74,7 +76,8 @@ public class LavaFloatingJigsawStructure extends Structure {
             Optional<Heightmap.Types> projectStartToHeightmap,
             int maxDistanceFromCenter,
             int footprintX,
-            int footprintZ) {
+            int footprintZ,
+            int lavaYOffset) {
         super(settings);
         this.startPool = startPool;
         this.startJigsawName = startJigsawName;
@@ -85,6 +88,7 @@ public class LavaFloatingJigsawStructure extends Structure {
         this.maxDistanceFromCenter = maxDistanceFromCenter;
         this.footprintX = footprintX;
         this.footprintZ = footprintZ;
+        this.lavaYOffset = lavaYOffset;
     }
 
     @Override
@@ -107,7 +111,7 @@ public class LavaFloatingJigsawStructure extends Structure {
             this.startPool,
             this.startJigsawName,
             this.maxDepth,
-            new BlockPos(x, lavaY + 2, z),
+            new BlockPos(x, lavaY + this.lavaYOffset, z),
             this.useExpansionHack,
             this.projectStartToHeightmap,
             this.maxDistanceFromCenter
