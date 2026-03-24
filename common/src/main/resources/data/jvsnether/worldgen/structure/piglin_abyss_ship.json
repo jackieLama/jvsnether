@@ -1,0 +1,23 @@
+{
+    "type": "jvsnether:lava_floating_jigsaw",
+    "biomes": "#jvsnether:ships",
+    "step": "surface_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "none",
+    "start_pool": "jvsnether:piglin_abyss_ship",
+    "size": 1,
+    "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+            "absolute": 33
+        },
+        "max_inclusive": {
+            "absolute": 35
+        }
+    },
+    "max_distance_from_center": 116,
+    "use_expansion_hack": false,
+    "footprint_x": 15,
+    "footprint_z": 38,
+    "lava_y_offset": 1
+}

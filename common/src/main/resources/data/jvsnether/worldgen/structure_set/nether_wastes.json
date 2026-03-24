@@ -1,6 +1,26 @@
 {
   "structures": [
     {
+      "structure": "jvsnether:nether_stonehenge",
+      "weight": 5
+    },
+    {
+      "structure": "jvsnether:lava_lake",
+      "weight": 5
+    },
+    {
+      "structure": "jvsnether:nether_eye_tower",
+      "weight": 5
+    },
+    {
+      "structure": "jvsnether:blaze_column",
+      "weight": 5
+    },
+    {
+      "structure": "jvsnether:piglin_totem",
+      "weight": 1
+    },
+    {
       "structure": "jvsnether:nether_bones",
       "weight": 1
     }

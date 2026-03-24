@@ -1,10 +1,10 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#jvsnether:nether_wastes",
+    "biomes": "#jvsnether:crimson_forest",
     "step": "underground_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
-    "start_pool": "jvsnether:piglin_totem",
+    "start_pool": "jvsnether:piglin_shipyard",
     "size": 1,
     "start_height": {
         "type": "minecraft:uniform",

@@ -1,0 +1,23 @@
+{
+  "structures": [
+    {
+      "structure": "jvsnether:orclin_camp",
+      "weight": 5
+    },
+    {
+      "structure": "jvsnether:piglin_cauldron",
+      "weight": 5
+    },
+    {
+      "structure": "jvsnether:piglin_shipyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 23,
+    "separation": 11,
+    "spread_type": "triangular",
+    "salt": 112837645
+  }
+}
